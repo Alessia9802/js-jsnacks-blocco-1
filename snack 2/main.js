@@ -5,15 +5,15 @@ Il software stampa prima la parola più corta, poi la parola più lunga.
 
 /* console.log(primaParola, secondaParola); */
 
-const corta = prompt("Inserisci una parola");
-const lunga = prompt("Inserisci un'altra parola");
+const parolaUno = prompt("Inserisci una parola");
+const parolaDue = prompt("Inserisci un'altra parola");
 
 /* console.log("corta", "lunga"); */
 
-if (corta < lunga) {
-  console.log(corta);
-} else if (lunga > corta) {
-  console.log(lunga);
+if (parolaUno.length < parolaDue.length) {
+  console.log(parolaUno, parolaDue);
+} else if (parolaDue.length < parolaUno.length) {
+  console.log(parolaDue, parolaUno);
 } else {
-  console.log(corta, lunga);
+  console.log("sono uguali");
 }
