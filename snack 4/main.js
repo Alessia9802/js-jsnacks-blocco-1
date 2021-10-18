@@ -14,7 +14,12 @@ const invitatiGatsby = [
 console.log(invitatiGatsby);
 
 const userName = prompt("Qual è il tuo nome?");
+let invito;
 
-if (userName == invitatiGatsby.length) {
+if (userName != invitatiGatsby) {
   console.log("Puoi partecipare");
+} else if (userName == invitatiGatsby) {
+  console.log("non puoi partecipare");
+} else {
+  console.log("alla prossima");
 }
