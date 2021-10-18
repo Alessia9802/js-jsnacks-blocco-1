@@ -4,6 +4,6 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 let play = true;
 
 while (play) {
-  const element = prompt("Inserisci un numero");
+  const element = prompt("Inserisci un numero") * 10;
   console.log(element);
 }
