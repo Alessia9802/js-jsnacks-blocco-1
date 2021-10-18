@@ -3,7 +3,7 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 
 const arr = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
 var length = arr.length;
-for (var i = 0; i < length; i++) {
+for (var i = 0; i < arr.length; i++) {
   const askNumber = parseInt(prompt("Inserisci un numero"));
-  console.log(askNumber);
+  console.log(askNumber + arr[1]);
 }
